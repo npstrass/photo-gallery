@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2A1A1F;
+    color: white;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.my-gallery {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.my-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.my-photo {
+    /* border: #1b1416 0.1rem solid;
+    border-radius: 0.7rem; */
+    margin: 0;
+}
